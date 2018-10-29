@@ -1,0 +1,203 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1270px) {
+	.btn-panel .info {
+		letter-spacing: 0.3em;
+	}
+
+	.btn-panel .btn span {
+		font-size: 0.634em;
+	}
+
+	.content .btn-container .btn {
+		width: calc(50% - 2.4em);
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body {
+  	font-size: 30px;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.half {
+	  width: 100%;
+	}
+
+	.col,
+	.main,
+	.profile {
+		height: auto;
+	}
+
+	.col {
+		overflow: unset;
+	}
+
+	#rightCol {
+	  padding: 0 10px;
+	}
+
+	.header {
+		height: auto;
+	}
+
+	.header .header-image {
+		position: static;
+		top: unset;
+		left: unset;
+		transform: unset;
+	}
+
+	.profile_description {
+		font-size: 0.43em;
+	}
+
+	.content .share-btn {
+		display: block;
+	}
+
+	.content .btn-container .btn {
+		width: calc(50% - 15em);
+	}
+
+	.content .btn-container .btn span{
+		font-size: 1em;
+	}
+
+	.social-media,
+	.contact-menu {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.social-media ul li {
+	  margin: .548em 0;
+	}
+
+	.eller-label {
+    margin-top: 24px;
+	}
+
+	.content {
+		padding-bottom: 1.109em;
+		height: auto;
+	}
+
+	.btn-panel .info {
+		font-size: 0.45em;
+	}
+
+	.btn-panel .btn span {
+		line-height: 2.5em;
+		font-size: 1em;
+	}
+
+	.btn .svg  {
+	  max-width: 25px;
+	  max-height: 20px;
+	}
+
+  .btn-panel .btn .icon-wrap {
+    padding-top: 5px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.profile_description {
+		font-size: 0.3em;
+		margin: 5em 2em;
+	}
+
+	.content .btn-container .btn {
+		width: calc(50% - 5em);
+	}
+
+	.content .btn-container .btn span{
+		font-size: 1em;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.btn-panel .btn {
+		padding: 12px 2px;
+	}
+
+	.btn-panel .info {
+		font-size: 0.3em;
+	}
+
+	.btn-panel .btn span {
+		font-size: 0.8em;
+	}
+
+	.content .btn-container .btn {
+		width: 50%;
+	}
+
+	.content .btn-container .btn span {
+		font-size: .8em;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}

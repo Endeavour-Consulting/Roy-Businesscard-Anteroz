@@ -1,0 +1,86 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+.svg path, .svg polygon {
+  -webkit-transition: fill .3s ease;
+  -moz-transition: fill .3s ease;
+  -ms-transition: fill .3s ease;
+  -o-transition: fill .3s ease;
+  transition: fill .3s ease;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+
+  color: #464646;
+  
+  margin: 0;
+  padding: 0;
+  font-size: 4.3vw;
+  background: #000;
+}
+
+.main {
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.col {
+  height: 100%;
+  overflow: auto;
+}
+
+#rightCol {
+  padding: 0 45px;
+  box-sizing: border-box;
+}
+
+.half {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,78 @@
+.social-media,
+.contact-menu {
+  margin: 25px 0;
+  background: #fff;
+}
+
+.social-media ul,
+.contact-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media ul {
+  justify-content: space-around;
+}
+
+.contact-menu ul {
+  padding-left: .855em;
+  padding-right: .855em;
+}
+
+.social-media ul {
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+.social-media ul li,
+.contact-menu ul li {
+  display: block;
+  position: relative;
+  float: left;
+  margin: 10px 0;
+  list-style: none;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.contact-menu ul li a{
+  display: flex;
+}
+
+.contact-menu ul li a .svg {
+  width: 1em;
+  max-height: 1em;
+}
+
+.social-media ul li {
+  padding: 0;
+  margin: .3em 0;
+}
+
+.social-media ul li a {
+  display: flex;
+}
+
+.social-media ul li a .svg {
+  width: 1.2em;
+  max-height: 1.2em;
+}
+
+.contact-menu ul li a .svg path,
+.social-media ul li a .svg path,
+.social-media ul li a .svg polygon {
+  fill: #ce1327;
+}
+
+.contact-menu ul li a:hover .svg path,
+.social-media ul li a:hover .svg path,
+.social-media ul li a.sn-selected .svg path,
+.social-media ul li a:hover .svg polygon,
+.social-media ul li a.sn-selected .svg polygon {
+  fill: #ce1327;
+}
+

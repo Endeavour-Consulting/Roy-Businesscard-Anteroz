@@ -1,0 +1,94 @@
+.btn-panel {
+  position: relative;
+  margin: 10px 0;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.btn-panel .info {
+  color: #464646;
+  text-align: center;
+  margin: 4em 2em 3em;
+  line-height: 1.2;
+  letter-spacing: 0.38em;
+  font-size: .2em;
+}
+
+.btn-panel .info span {
+  display: block;
+  transform: scaleY(2.63);
+}
+
+.btn-panel .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  float: left;
+  margin: 1em 0.7em;
+  padding: 12px 12px 12px;
+  width: calc(50% - 1.4em);
+  letter-spacing: 2px;
+  
+  color: #ce1327;
+  font-size: .35em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 11.63;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  
+  border-radius: .3em;
+  border: .3em solid #ce1327;
+  background-color: transparent;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  -webkit-transition: background-color .3s ease, color .3s ease;
+  -moz-transition: background-color .3s ease, color .3s ease;
+  -ms-transition: background-color .3s ease, color .3s ease;
+  -o-transition: background-color .3s ease, color .3s ease;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #ce1327;
+}
+
+.btn .svg path {
+  fill: #ce1327;
+}
+
+.btn:hover .svg path,
+.btn.info-selected .svg path {
+  fill: #fff;
+}
+
+.btn span {
+  display: inline-block;
+  transform: scaleY(2.79);
+  font-size: .77em;
+  line-height: 2.5em;
+  vertical-align: top;
+}
+
+.btn-panel .btn .icon-wrap {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -0.25em;
+  height: 1.55em;
+}
+
+.btn-panel .btn .icon-wrap .svg {
+  height: 2em;
+}
+
+.btn .svg  {
+  max-width: 45px;
+  max-height: 40px;
+}
