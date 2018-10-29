@@ -1,17 +1,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta property="og:url" content="https://www.anteroz.com/" />
-    <meta property="og:type" content="website" />
+ <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>" />    <meta property="og:type" content="website" />
     <meta property="og:title" content="Anteroz: Roy A. Hanssen" />
     <meta property="og:description" content="Anteroz" />
-    <meta property="og:image" content="./images/profile-picture.png" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0">
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge">
+    <meta property="og:image" content="?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>./images/profile-picture.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400i|Roboto:400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./css/fonts.css">
