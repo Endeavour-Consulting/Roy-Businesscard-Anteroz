@@ -108,6 +108,9 @@
   color: #ce1327;
   font-size: .75em;
 }
+.profile_name > span {
+  text-transform: uppercase;
+}
 
 .eller-label {
   margin: 0 0 .2em;
