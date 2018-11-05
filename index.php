@@ -21,6 +21,16 @@
     <title>Roy A. Hanssen</title>
   </head>
   <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2&appId=867279866616605&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="wrap" class="main row">
       <div class="col half">
         <div class="profile">
@@ -210,8 +220,22 @@
         </header>
 
         <div class="modal__modal-content scrollable">
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="elfsight-app-2757e6fb-98dd-4e4b-a665-16447ad7539e"></div>
+          <div class="fb-page-wrap">
+            <div class="fb-page"
+              data-href="https://www.facebook.com/anterozspirits"
+              data-tabs="timeline"
+              data-small-header="false"
+              data-width="500"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="true">
+              <blockquote
+                cite="https://www.facebook.com/anterozspirits"
+                class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/anterozspirits">Anteroz</a>
+              </blockquote>
+            </div>
+          </div>
         </div>
 
       </div>
