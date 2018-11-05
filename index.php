@@ -28,23 +28,15 @@
             <div class="header-image">
               <img
                 src="./images/background.jpg"
-                alt="Mimmi - header image">
+                alt="Roy A. Hanssen: header image">
             </div>
-            <img src="./images/logo.png" alt="Logo" class="logo">
+            <img src="./images/logo.png" alt="Roy A. Hanssen: Logo" class="logo">
           </div>
           <div class="content">
-            <!-- <div
-              class="share-btn"
-              id="shareButton"
-              onClick="mobileShare()">
-              <img
-                src="./images/icons/share-arrow.svg"
-                alt>
-            </div> -->
             <div class="user-picture">
               <img
                 src="./images/profile-picture.png"
-                alt>
+                alt="Roy A. Hanssen: profile picture">
             </div>
             <div class="profile_name text-center">
               <span>Roy A. Hanssen</span>
@@ -66,7 +58,7 @@
                 href="https://www.anteroz.com/the-brand-en">
                 <img
                   src="./images/icons/webpage.svg"
-                  alt="world wide web"
+                  alt="Roy A. Hanssen: world wide web"
                   class="svg">
               </a>
             </li>
@@ -74,7 +66,7 @@
               <a href="tel:+4790836399">
                 <img
                   src="./images/icons/phone.svg"
-                  alt="call"
+                  alt="Roy A. Hanssen: call"
                   class="svg">
               </a>
             </li>
@@ -82,7 +74,7 @@
               <a href="sms:+4790836399">
                 <img
                   src="./images/icons/sms.svg"
-                  alt="sms"
+                  alt="Roy A. Hanssen: sms"
                   class="svg">
               </a>
             </li>
@@ -90,7 +82,7 @@
               <a href="mailto:roy@anteroz.com">
                 <img
                   src="./images/icons/mail.svg"
-                  alt="mail"
+                  alt="Roy A. Hanssen: mail"
                   class="svg">
               </a>
             </li>
@@ -100,7 +92,7 @@
                 href="./files/Roy-A-Hanssen-business-card.vcf">
                 <img
                   src="./images/icons/download.svg"
-                  alt="download"
+                  alt="Roy A. Hanssen: download"
                   class="svg">
               </a>
             </li>
@@ -114,7 +106,7 @@
                 onclick="openModal('instagram')">
                 <img
                   src="./images/icons/instagram.svg"
-                  alt="instagram"
+                  alt="Roy A. Hanssen: instagram"
                   class="svg">
               </a>
             </li>
@@ -124,7 +116,7 @@
                 onclick="openModal('facebook')">
                 <img
                   src="./images/icons/facebook.svg"
-                  alt="facebook"
+                  alt="Roy A. Hanssen: facebook"
                   class="svg">
               </a>
             </li>
@@ -135,7 +127,7 @@
                 href="https://www.google.com.ua/search?q=Anteroz,+Pje.+Lucero,+1,+28047+Madrid,+%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F&ludocid=12181515388131447326#lrd=0xd4188036bf283e3:0xa90d6fb47f87921e,3">
                 <img
                   src="./images/icons/google-review.svg"
-                  alt="google"
+                  alt="Roy A. Hanssen: google"
                   class="svg">
               </a>
             </li>
@@ -146,7 +138,7 @@
                 href="https://www.youtube.com/watch?v=dVcav3uVNvE">
                 <img
                   src="./images/icons/youtube.svg"
-                  alt="youtube"
+                  alt="Roy A. Hanssen: youtube"
                   class="svg">
               </a>
             </li>
@@ -157,7 +149,7 @@
                 href="https://www.linkedin.com/company/anteroz/">
                 <img
                   src="./images/icons/linkedin.svg"
-                  alt="linkedin"
+                  alt="Roy A. Hanssen: linkedin"
                   class="svg">
               </a>
             </li>
@@ -190,20 +182,6 @@
           </a>
           </a>
         </div>
-        <!-- <div id="widgets-buttonWidget">
-          <div id="members" class="widget">
-            <iframe src="https://www.anteroz.com/members"></iframe>
-          </div>
-          <div id="shop" class="widget">
-            <iframe src="https://www.anteroz.es/tienda"></iframe>
-          </div> 
-          <div id="about" class="widget">
-            <iframe src="https://www.anteroz.com/the-brand"></iframe>
-          </div>
-          <div id="subscribe" class="widget">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/dVcav3uVNvE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div> -->
       </div>
 
     </div>
